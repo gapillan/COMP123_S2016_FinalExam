@@ -16,5 +16,15 @@ namespace COMP123_S2016_FinalExam
         {
             InitializeComponent();
         }
+
+        private void GenerateNameForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GenerateNameButton(object sender, EventArgs e)
+        {
+
+        }
     }
 }
