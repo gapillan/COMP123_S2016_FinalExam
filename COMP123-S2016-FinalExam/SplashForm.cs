@@ -24,17 +24,18 @@ namespace COMP123_S2016_FinalExam
 
         /**
          * <summary>
-         * Sets	the	Timer	control’s	properties	so	that	it	is	enabled	with	an	interval	of	3000	milliseconds
+         * Sets the Timer control's properties so that it is enabled with an interval
+         * of 3000 milliseconds 
          * </summary>
          * @method {Timer_Tick}
          * @return {void}
          */
         private void Timer_Tick(object sender, EventArgs e)
         {
-            GenerateNameForm SelectionForm = new GenerateNameForm();
-            this.Hide();
-            SelectionForm.Show();
-            Timer.Enabled = false;
+            this.Enabled = true;
+            Timer.Stop();
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
         private void SplashForm_Load(object sender, EventArgs e)

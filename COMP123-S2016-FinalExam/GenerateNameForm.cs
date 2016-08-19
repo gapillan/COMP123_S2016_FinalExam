@@ -31,5 +31,12 @@ namespace COMP123_S2016_FinalExam
         {
             GenerateNames();
         }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            AbilityGeneratorForm abilityGenerator = new AbilityGeneratorForm();
+            this.Hide();
+            abilityGenerator.Show();
+        }
     }
 }

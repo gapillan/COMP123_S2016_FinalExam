@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+/**
+ * Student Name: Golden Pamela Apillanes 
+ * Student Number: 300867201    
+ * Description: Character Builder
+ * Date: August 19th 2016 
+ */
 namespace COMP123_S2016_FinalExam
 {
     public class Character

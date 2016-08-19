@@ -25,7 +25,16 @@ namespace COMP123_S2016_FinalExam
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AbilityGeneratorForm());
-            Application.Run(new SplashForm());
+            /**
+             * <summary>
+             * Inistiates the splashForm to run the ability generator 
+             * </summary>
+             */
+            SplashForm splashForm = new SplashForm();
+            if (splashForm.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new AbilityGeneratorForm());
+            }
         }
     }
 }
