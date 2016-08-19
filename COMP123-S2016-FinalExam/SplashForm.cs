@@ -16,5 +16,18 @@ namespace COMP123_S2016_FinalExam
         {
             InitializeComponent();
         }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            GenerateNameForm SelectionForm = new GenerateNameForm();
+            this.Hide();
+            SelectionForm.Show();
+            Timer.Enabled = false;
+        }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
+            Timer.Start();
+        }
     }
 }
