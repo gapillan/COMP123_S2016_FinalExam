@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/**
+ * Student Name: Golden Pamela Apillanes 
+ * Student Number: 300867201    
+ * Description: Character Builder
+ * Date: August 19th 2016 
+ */
 namespace COMP123_S2016_FinalExam
 {
     public static class Program
@@ -19,6 +24,7 @@ namespace COMP123_S2016_FinalExam
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new AbilityGeneratorForm());
             Application.Run(new SplashForm());
         }
     }

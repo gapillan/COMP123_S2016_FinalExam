@@ -10,7 +10,7 @@ using System.Windows.Forms;
 /**
  * Student Name: Golden Pamela Apillanes
  * Studnet Number: 300867201   
- * Description: COMP123 - Final Exam 
+ * Description: Character Builder
  * Date: August 19th 2016 
  */
 namespace COMP123_S2016_FinalExam
@@ -21,8 +21,6 @@ namespace COMP123_S2016_FinalExam
         {
             InitializeComponent();
         }
-
-        public AbilityGeneratorForm abilityGenerator { get; set; }
 
         /**
          * <summary>

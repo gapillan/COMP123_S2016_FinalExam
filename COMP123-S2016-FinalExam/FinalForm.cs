@@ -7,7 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/**
+ * Student Name: Golden Pamela Apillanes 
+ * Student Number: 300867201    
+ * Description: Character Builder
+ * Date: August 19th 2016 
+ */
 namespace COMP123_S2016_FinalExam
 {
     public partial class FinalForm : Form
@@ -51,7 +56,6 @@ namespace COMP123_S2016_FinalExam
         private void FinalForm_Load(object sender, EventArgs e)
         {
             FinalForm finalForm = new FinalForm();
-            finalForm.previousForm = this;
 
             finalForm.StrengthTextBox.Text = Program.character.Strength.ToString();
             finalForm.DexterityTextBox.Text = Program.character.Dexterity.ToString();
@@ -63,7 +67,6 @@ namespace COMP123_S2016_FinalExam
             finalForm.FirstNameTextBox.Text = Program.character.FirstName.ToString();
             finalForm.LastNameTextBox.Text = Program.character.LastName.ToString();
             finalForm.Show();
-            this.Hide;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
